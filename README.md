@@ -1,8 +1,8 @@
-# 🚁 Drone Battery State of Health (SOH) Prediction
+#  Drone Battery State of Health (SOH) Prediction
 
 An AI-powered system designed to estimate the **State of Health (SOH)** of Lithium-Ion drone batteries. By accurately predicting battery degradation, this tool helps prevent mid-flight power failures and optimizes maintenance schedules.
 
-## 🔋 Problem Statement
+##  Problem Statement
 Drone batteries degrade over time due to charge cycles, temperature changes, and usage patterns. A sudden drop in battery health can lead to:
 * **Catastrophic Failures:** Drones falling mid-flight.
 * **Inefficient Operations:** Reduced flight time and reliability.
@@ -10,20 +10,20 @@ Drone batteries degrade over time due to charge cycles, temperature changes, and
 
 This project uses Machine Learning to predict the **SOH percentage** based on real-time sensor data (Voltage, Current, Temperature).
 
-## 🚀 Key Features
-* **📊 Data Analysis:** Visualization of battery discharge curves and capacity fade over time.
-* **🤖 Advanced Modeling:** Implements **XGBoost Regressor** for high-accuracy prediction.
-* **📉 Error Analysis:** Evaluates model performance using RMSE (Root Mean Squared Error) and R² Score.
-* **🔌 Scalable:** Can be adapted for EV (Electric Vehicle) battery management systems (BMS).
+##  Key Features
+* ** Data Analysis:** Visualization of battery discharge curves and capacity fade over time.
+* ** Advanced Modeling:** Implements **XGBoost Regressor** for high-accuracy prediction.
+* ** Error Analysis:** Evaluates model performance using RMSE (Root Mean Squared Error) and R² Score.
+* ** Scalable:** Can be adapted for EV (Electric Vehicle) battery management systems (BMS).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Python 3.x
 * **Machine Learning:** XGBoost, Scikit-Learn
 * **Data Processing:** Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn
 * **Development:** Jupyter Notebook
 
-## 📂 Project Structure
+##  Project Structure
 ```bash
 Drone-Battery/
 ├── data/                  # Dataset files (csv/xlsx)
